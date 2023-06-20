@@ -16,7 +16,7 @@ int main(void)
 	{
 	z += i;
 	}
-	1++;
+	i++;
 	}
 	printf("%d\n", z);
 	return (0);
