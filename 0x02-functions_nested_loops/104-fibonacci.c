@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 98 fibonacci numbers, starting with
- * 1 and 2, seperated by comma followed by a space.
- * Return: Always 0.
+ * main - ribonacci <3
+ * Purpose - no hardcode
+ * Return:(Success)
  */
-
 
 int main(void)
 
@@ -38,7 +37,7 @@ printf(", %lu", aft1 + (aft2 / l));
 printf("%lu", aft2 % l);
 aft1 = aft1 + bef1;
 bef1 = aft1 - bef1;
-aft2 = aft + bef2;
+aft2 = aft1 + bef2;
 bef2 = aft2 - bef2;
 }
 printf("\n");
