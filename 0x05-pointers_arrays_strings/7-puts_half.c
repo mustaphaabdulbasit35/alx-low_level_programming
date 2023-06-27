@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * putshalf - function that print half of a string,
+ * puts_half - function that print half of a string,
  * followed by a new line.
  *
  * @str: this is the input string
