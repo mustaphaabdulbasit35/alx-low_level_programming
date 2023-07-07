@@ -46,7 +46,7 @@ int _atoi(char *s)
 
 /**
  * main - multiplies two numbers
- * @argc:  number of arguments
+ * @argc: number of arguments
  * @argv: array of arguments
  * Return: 0 success, 1 error
  */
