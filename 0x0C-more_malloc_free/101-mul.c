@@ -70,13 +70,13 @@ int main(int argc, char *argv[])
 	result = malloc(sizeof(int) * len);
 	if (!result)
 		return (1);
-	for (a = 0; a < len1 + len2; a++)
+	for (a = 0; a <= len1 + len2; a++)
 		result[a] = 0;
-	for (len1 = len1 - 1; len >= 0; len--)
+	for (len1 = len1 - 1; len1 >= 0; len1--)
 	{
 		digit1 = b1[len1] - '0';
 		take = 0;
-		for (len2 = _strlen(b2) - 1; len >= 0; len2--)
+		for (len2 = _strlen(b2) - 1; len2 >= 0; len2--)
 		{
 			digit2 = b2[len2] - '0';
 			take += result[len1 + len2 + 1] + (digit1 * digit2);
