@@ -3,9 +3,9 @@
 
 /**
  * struct dog - new type describing a dog
- * @owner: the owner of the dog
- * @age: age of the dog
  * @name: the name of the dog
+ * @age: the age of the dog
+ * @owner: the owner of the dog
  */
 struct dog
 {
